@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		82DB0B581C8C9F7600A6998D /* Assignment 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DB0B581C8C9F7600A6998D /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DB0B5B1C8C9F7600A6998D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82DB0B5D1C8C9F7600A6998D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82DB0B601C8C9F7600A6998D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		82DB0B591C8C9F7600A6998D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82DB0B581C8C9F7600A6998D /* Assignment 1.app */,
+				82DB0B581C8C9F7600A6998D /* Colors.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			);
 			name = "Assignment 1";
 			productName = "Assignment 1";
-			productReference = 82DB0B581C8C9F7600A6998D /* Assignment 1.app */;
+			productReference = 82DB0B581C8C9F7600A6998D /* Colors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +251,8 @@
 				INFOPLIST_FILE = "Assignment 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucasdoucette.Assignment-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Colors;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -262,7 +263,8 @@
 				INFOPLIST_FILE = "Assignment 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucasdoucette.Assignment-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Colors;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
